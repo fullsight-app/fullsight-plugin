@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fullsight": {
+      "type": "http",
+      "url": "https://fullsight.app/api/mcp"
+    }
+  }
+}

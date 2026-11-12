@@ -1,0 +1,12 @@
+{
+  "name": "fullsight",
+  "description": "The Fullsight plugin for Claude Code.",
+  "owner": { "name": "Ernst Development LLC", "email": "support@fullsight.app", "url": "https://fullsight.app" },
+  "plugins": [
+    {
+      "name": "fullsight",
+      "source": "./",
+      "description": "Find, install and share the AI skills and MCP servers your company approved in Fullsight."
+    }
+  ]
+}
