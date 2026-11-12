@@ -1,8 +1,8 @@
 {
   "name": "fullsight",
   "displayName": "Fullsight",
-  "version": "0.1.0",
-  "description": "Find, install and share the AI skills and MCP servers your company approved in Fullsight, from Claude Code.",
+  "version": "0.2.0",
+  "description": "Find, install and share the AI skills and MCP servers your company approved in Fullsight.",
   "author": {
     "name": "Ernst Development LLC",
     "email": "support@fullsight.app",

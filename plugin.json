@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fullsight",
+  "version": "0.2.0",
+  "description": "Find, install and share the AI skills and MCP servers your company approved in Fullsight.",
+  "author": {
+    "name": "Ernst Development LLC",
+    "email": "support@fullsight.app",
+    "url": "https://fullsight.app"
+  },
+  "homepage": "https://fullsight.app",
+  "repository": "https://github.com/ethanernstt/fullsight-plugin",
+  "license": "MIT",
+  "keywords": ["skills", "mcp", "registry", "ai-governance"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Fullsight",
+        "shortDescription": "Your company's approved AI skills and MCP servers",
+        "longDescription": "Search the skills and MCP servers your company shares in Fullsight, see what colleagues sent you, install or add them, and prepare a send for colleagues that you confirm on the Fullsight site. Signs in as you and sees only what you can.",
+        "developerName": "Ernst Development LLC",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://fullsight.app",
+        "privacyPolicyURL": "https://fullsight.app/privacy",
+        "termsOfServiceURL": "https://fullsight.app/terms",
+        "defaultPrompt": [
+          "Do we have a skill for writing release notes?",
+          "What have colleagues sent me in Fullsight?",
+          "Is there an approved MCP server for our ticket system?"
+        ],
+        "brandColor": "#484DD2",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
