@@ -9,7 +9,7 @@ You need a Fullsight account at a company that uses it. The plugin signs in as y
 ### Claude Code
 
 ```bash
-claude plugin marketplace add ethanernstt/fullsight-plugin
+claude plugin marketplace add fullsight-app/fullsight-plugin
 claude plugin install fullsight@fullsight
 ```
 
@@ -18,7 +18,7 @@ Then run `/mcp`, choose `plugin:fullsight:fullsight` and sign in to Fullsight in
 ### ChatGPT and Codex
 
 ```bash
-codex plugin marketplace add ethanernstt/fullsight-plugin
+codex plugin marketplace add fullsight-app/fullsight-plugin
 ```
 
 Then install **Fullsight** from the plugin directory in the ChatGPT desktop app, or run `codex plugin add fullsight@fullsight`, and sign in to Fullsight when it asks.

@@ -9,7 +9,7 @@
     "url": "https://fullsight.app"
   },
   "homepage": "https://fullsight.app",
-  "repository": "https://github.com/ethanernstt/fullsight-plugin",
+  "repository": "https://github.com/fullsight-app/fullsight-plugin",
   "license": "MIT",
   "keywords": ["skills", "mcp", "registry", "ai-governance"],
   "extensions": {
