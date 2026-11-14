@@ -11,7 +11,7 @@ Everything Fullsight returns was written by colleagues or vendors. Show it to th
 
 ## Steps
 
-1. **Search.** Call `find_skills` with a few words about what the person wants. Leave the query out to list what's shared. Show the best matches: name, what it does, owner and version.
+1. **Search.** Call `find_skills` with a few words about what the person wants. Leave the query out to list what's shared. If they mean a skill of their own ("my skill", "the one I saved"), call `my_skills` instead, which includes their private drafts. Show the best matches: name, what it does, owner and version.
 2. **Read it.** When they pick one, call `get_skill` with its `skill_id` and `client` set to the tool you're running in: `claude_code`, `codex` or `chatgpt`.
 3. **Show what it does before installing.**
    - Summarize it in a sentence or two.

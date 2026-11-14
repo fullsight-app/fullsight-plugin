@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "fullsight",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Find, install and share the AI skills and MCP servers your company approved in Fullsight.",
   "author": {
     "name": "Ernst Development LLC",
@@ -22,7 +22,7 @@
       "interface": {
         "displayName": "Fullsight",
         "shortDescription": "Approved AI skills and servers",
-        "longDescription": "Search the skills and MCP servers your company shares in Fullsight, see what colleagues sent you, install or add them, and prepare a send for colleagues that you confirm on the Fullsight site. Signs in as you and sees only what you can.",
+        "longDescription": "Search the skills and MCP servers your company shares in Fullsight, see what colleagues sent you, install or add them, save your own skills as private drafts, set up a new tool in one go, check for updates, carry a handoff from one AI tool to another, and prepare a send for colleagues that you confirm on the Fullsight site. Signs in as you and sees only what you can.",
         "developerName": "Ernst Development LLC",
         "category": "Productivity",
         "capabilities": [
@@ -93,7 +93,7 @@
         }
       },
       "publication": {
-        "release_notes": "First public release. Connects to Fullsight's MCP server and adds four skills: find and install a company skill, answer what colleagues sent, add an approved MCP server, and prepare a send to confirm on Fullsight."
+        "release_notes": "First public release. Connects to Fullsight's MCP server and adds eight skills: find and install a company skill, answer what colleagues sent, add an approved MCP server, save your own skill as a private draft, set up a new tool in one go, check for updates, save and pick up handoffs between AI tools, and prepare a send to confirm on Fullsight."
       }
     }
   }
